@@ -5,6 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог наборов и схем</title>
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <style>
+  /* Удаляет плашку Netlify Badge */
+  #netlify-badge, 
+  .netlify-badge,
+  [data-netlify-badge],
+  div[style*="position: fixed"][style*="bottom: 0"][style*="right: 0"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+  
+  /* Дополнительно сдвигаем нашу корзину чуть выше на мобилках, если у пользователя Safari */
+  #cart-bar {
+    padding-bottom: calc(env(safe-area-inset-bottom) + 16px) !important;
+  }
+</style>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
 
