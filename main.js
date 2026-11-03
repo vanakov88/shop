@@ -73,9 +73,9 @@ function updateCartUI() {
 
   // Показываем плашку, если в корзине есть хотя бы 1 товар
   if (cart.length > 0) {
-    cartBar.classList.remove('translate-y-full');
+    cartBar.style.transform = 'translateY(0)';
   } else {
-    cartBar.classList.add('translate-y-full');
+    cartBar.style.transform = 'translateY(100%)';
   }
 
   // Применяем скидку 10%, если выбрано 5 или более любых наборов
