@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Осенний домик",
+    "price": 450,
+    "image": "https://picsum.photos"
+  },
+  {
+    "id": 2,
+    "name": "Тыквенный спас",
+    "price": 350,
+    "image": "https://picsum.photos"
+  },
+  {
+    "id": 3,
+    "name": "Новогодняя игрушка 'Птичка'",
+    "price": 500,
+    "image": "https://picsum.photos"
+  }
+]
